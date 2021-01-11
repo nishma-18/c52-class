@@ -1,0 +1,55 @@
+h1{
+    color:blue;
+    margin:30px;
+    margin-top: 50px;
+    margin-left: 50px;
+    padding: 20px;
+}
+
+.header *{
+    border: solid;
+}
+
+
+.header {
+    background-color: dimgray;
+    display:flex;
+    justify-content: space-between;
+}
+
+.arrange{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+position: relative;
+}
+
+.arrange p{
+    position: relative;
+    top: -1%;
+    left:34%;
+    opacity: 1;
+    transform:translate(-35%,-35%);
+}
+
+.iarrange{
+    display: flex;
+    justify-content: flex-end;
+    background-color: #FF0000;
+}
+
+.arrange:hover img{
+opacity: 0.30;
+}
+
+p{
+    text-align: center;
+}
+
+a:link{
+    color: darkmagenta;
+}
+
+a:visited{
+    color: rgb(179, 19, 19);
+}
